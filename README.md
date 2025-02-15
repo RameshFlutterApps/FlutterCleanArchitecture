@@ -6,7 +6,9 @@ The Light Theme typically uses lighter colors (such as white backgrounds with da
 
 ## Prominent
 
-* Light Theme: Designed for well-lit environments, providing a clean and bright interface.
-* Dark Theme: Ideal for low-light settings, reducing blue light exposure and minimizing eye strain.
+* ##  Light Theme:
+  Designed for well-lit environments, providing a clean and bright interface.
+* ## Dark Theme:
+  Ideal for low-light settings, reducing blue light exposure and minimizing eye strain.
 
 
