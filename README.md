@@ -1,16 +1,12 @@
-# folderstructure
+# Application Theme
 
-A new Flutter project.
+In Flutter, Dark and Light Themes provide users with an option to toggle between two visual modes to suit their preferences or the ambient lighting of their environment.
 
-## Getting Started
+The Light Theme typically uses lighter colors (such as white backgrounds with dark text), while the Dark Theme uses darker colors (such as black or dark gray backgrounds with light text) to reduce eye strain in low-light conditions.
 
-This project is a starting point for a Flutter application.
+## Prominent
 
-A few resources to get you started if this is your first Flutter project:
+* Light Theme: Designed for well-lit environments, providing a clean and bright interface.
+* Dark Theme: Ideal for low-light settings, reducing blue light exposure and minimizing eye strain.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
