@@ -13,24 +13,22 @@ class PageProfile extends StatefulWidget {
 class _PageProfileState extends State<PageProfile> {
   bool isThemeChanged = false;
 
-
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       appBar: AppBar(
-        title: Text('User Profile' ,style: Theme.of(context).textTheme.headlineLarge),
-
+        title: Text('User Profile',
+            style: Theme.of(context).textTheme.headlineSmall),
         actions: [
           Switch(
-            activeColor: Colors.white,
+              activeColor: Colors.white,
               value: isThemeChanged,
-              onChanged: (value){
-            setState(() {
-              isThemeChanged = value;
-              widget.onStateChanged(isThemeChanged);
-            });
-          })
+              onChanged: (value) {
+                setState(() {
+                  isThemeChanged = value;
+                  widget.onStateChanged(isThemeChanged);
+                });
+              })
         ],
       ),
       body: SingleChildScrollView(
@@ -113,7 +111,6 @@ class _PageProfileState extends State<PageProfile> {
               ListTile(
                 title: Text(
                   'Theme',
-
                 ),
                 subtitle: Text('Light'),
                 leading: Icon(Icons.brightness_6),
