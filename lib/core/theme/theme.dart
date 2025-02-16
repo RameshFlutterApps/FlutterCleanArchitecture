@@ -3,6 +3,24 @@ import 'package:flutter/material.dart';
 ThemeData lightTheme = ThemeData(
   brightness: Brightness.light,
   useMaterial3: true,
+  colorScheme: ColorScheme(
+    brightness: Brightness.light,
+    primary: Colors.blue.shade700,
+    // Primary color (Light theme)
+    onPrimary: Colors.white,
+    secondary: Colors.blue.shade700,
+    // Secondary color (Light theme)
+    onSecondary: Colors.black,
+    surface: Colors.white,
+    onSurface: Colors.black,
+    error: Colors.red,
+    onError: Colors.white,
+  ),
+  scaffoldBackgroundColor: Colors.white,
+  // Background color for light theme
+  appBarTheme: AppBarTheme(
+    backgroundColor: Colors.blue, // AppBar color (Light theme)
+  ),
   textTheme: TextTheme(
     // Display styles (Large and impactful text)
     displayLarge: TextStyle(
@@ -96,6 +114,25 @@ ThemeData lightTheme = ThemeData(
 ThemeData darkTheme = ThemeData(
   brightness: Brightness.dark,
   useMaterial3: true,
+  colorScheme: ColorScheme(
+    brightness: Brightness.dark,
+    primary: Color(0xFF17b49d),
+    // Primary color (Dark theme)
+    onPrimary: Colors.black,
+    secondary: Color(0xFF03DAC6),
+    // Secondary color (Dark theme)
+    onSecondary: Colors.black,
+    surface: Color(0xFF121212),
+    // Surface color (Dark theme)
+    onSurface: Colors.white,
+    error: Colors.redAccent,
+    onError: Colors.white,
+  ),
+  scaffoldBackgroundColor: Color(0xFF121212),
+  // Background color for dark theme
+  appBarTheme: AppBarTheme(
+    backgroundColor: Color(0xFF17b49d), // AppBar color (Dark theme)
+  ),
   textTheme: TextTheme(
     // Display styles (Large and impactful text)
     displayLarge: TextStyle(
